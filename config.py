@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8118666641:AAGDiy3o3lWFM1xeGBFQmRFX5eN_0rrbH_Y")
 
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153 1100127936').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153,1100127936').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Animecore4ubot") # without @
 PORT = environ.get("PORT", "8080")
 
