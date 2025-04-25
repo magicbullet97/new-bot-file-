@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "20366634"))
 API_HASH = environ.get("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8118666641:AAGDiy3o3lWFM1xeGBFQmRFX5eN_0rrbH_Y")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7471850783:AAGmTGdXDSUJy655CYdXPtkO2e5fgnZ3-RI")
 
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1100127936').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Animecore4ubot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "ANIMECOREUBOT") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "10")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002544960690"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002626547087"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -70,7 +70,7 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or Fa
 WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
