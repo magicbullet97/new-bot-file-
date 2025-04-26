@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "20366634"))
 API_HASH = environ.get("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7471850783:AAGmTGdXDSUJy655CYdXPtkO2e5fgnZ3-RI")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7368707001:AAEH0VoQ84xk5_sReDnyfZTJ8g9csK1guWk")
 
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1100127936').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "ANIMECOREUBOT") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "ANIMECORE1BOT") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
